@@ -51,29 +51,29 @@ p {
 /** Large devices **/
 @media (min-width: 992px) {
    .col-lg-4 {
-    float: left;
-    width: 33.33%;
+       float: left;
+       width: 33.33%;
   }
 }
 
 /** Medium devices **/
 @media (min-width: 768px) and (max-width: 991px) {
- .col-md-6, .col-md-12 {
-     float: left;
+    .col-md-6, .col-md-12 {
+        float: left;
   }
-  .col-md-6 {
-      width: 50%;
-      margin-bottom: 40px;
+    .col-md-6 {
+        width: 50%;
+        margin-bottom: 40px;
   }
-  .col-md-12 {
-      width: 100%;
+    .col-md-12 {
+        width: 100%;
   }
-    } 
+} 
 
 /** Small devices **/
 @media (max-width: 767px) {
-  .col-sm-12 {
-      width: 100%; 
-      margin-bottom: 20px;
+    .col-sm-12 {
+        width: 100%; 
+        margin-bottom: 20px;
   }
 }
